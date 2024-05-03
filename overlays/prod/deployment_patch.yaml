@@ -1,0 +1,10 @@
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: backend-app
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+        - image: 394952106077.dkr.96ecr.ap-northeast-2.amazonaws.com/backend-app:1

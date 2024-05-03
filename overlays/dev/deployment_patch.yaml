@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
         - name: backend-app
-          image: 394952106077.dkr.ecr.ap-northeast-2.amazonaws.com/backend-app:2
+          image: 394952106077.dkr.ecr.ap-northeast-2.amazonaws.com/backend-app:3
